@@ -31,6 +31,11 @@ export const zhNavbar = navbar([
     icon: "creative",
   },
  
+  {
+    text: "碧苑坛经",
+    link: "/dao/README.md",
+    icon: "creative",
+  },
 
 
 ]);

@@ -2,6 +2,20 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
 
+  "/dao/": [
+
+    "" /* /dao/ */,
+    {
+      icon: "note",
+      text: "碧苑坛经",
+      prefix: "biyuantanjng/",
+      link: "biyuantanjng/",
+      collapsible: true,
+      children: "structure",
+    },
+ 
+  ],
+
   "/buddhism/": [
 
     "" /* /buddhism/ */,
