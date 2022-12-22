@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://github.com/dabaoqiang/document.git/sitemap.xml
+Sitemap: https://github.com/dabaoqiang/document.git/document/sitemap.xml
