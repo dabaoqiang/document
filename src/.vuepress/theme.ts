@@ -18,7 +18,7 @@ export default hopeTheme({
 
   repo: "https://github.com/dabaoqiang/document.git",
 
-  docsDir: "demo/theme-docs/src",
+  docsDir: "/",
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
