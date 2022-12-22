@@ -12,6 +12,8 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
+  hotReload: true,
+
   logo: "/logo.svg",
 
   repo: "https://github.com/dabaoqiang/document.git",
