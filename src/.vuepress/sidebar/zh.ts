@@ -31,18 +31,9 @@ export const zhSidebar = sidebar({
     "" /* /buddhism/ */,
     {
       icon: "discover",
-      text: "11月份记录",
-      prefix: "202211/",
-      link: "202211/",
-      collapsible: true,
-      children: "structure",
-    },
-    
-    {
-      icon: "discover",
-      text: "12月份记录",
-      prefix: "202212/",
-      link: "202212/",
+      text: "憨山德清",
+      prefix: "HanShanDeiQing/",
+      link: "HanShanDeiQing/",
       collapsible: true,
       children: "structure",
     },

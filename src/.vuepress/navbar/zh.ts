@@ -26,7 +26,7 @@ export const zhNavbar = navbar([
   // },
 
   {
-    text: "憨山德清",
+    text: "释家",
     link: "/buddhism/README.md",
     icon: "creative",
   },
