@@ -32,7 +32,7 @@ export const zhNavbar = navbar([
   },
  
   {
-    text: "碧苑坛经",
+    text: "道家",
     link: "/dao/README.md",
     icon: "creative",
   },

@@ -15,6 +15,15 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
 
+    {
+      icon: "discover",
+      text: "昆仑语录",
+      prefix: "kunlunjf/",
+      link: "kunlunjf/",
+      collapsible: true,
+      children: "structure",
+    },
+
   ],
 
   "/buddhism/": [
