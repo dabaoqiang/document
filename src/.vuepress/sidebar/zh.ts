@@ -5,15 +5,16 @@ export const zhSidebar = sidebar({
   "/dao/": [
 
     "" /* /dao/ */,
+ 
     {
-      icon: "note",
+      icon: "discover",
       text: "碧苑坛经",
       prefix: "biyuantanjng/",
       link: "biyuantanjng/",
       collapsible: true,
       children: "structure",
     },
- 
+
   ],
 
   "/buddhism/": [
