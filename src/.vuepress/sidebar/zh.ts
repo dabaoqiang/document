@@ -2,10 +2,34 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
 
+  "/java/": [
+
+    "",
+
+    {
+      icon: "discover",
+      text: "SpringBoot",
+      prefix: "SpringBoot/",
+      link: "SpringBoot/",
+      collapsible: true,
+      children: "structure",
+    },
+
+    {
+      icon: "discover",
+      text: "SpringCloud",
+      prefix: "SpringCloud/",
+      link: "SpringCloud/",
+      collapsible: true,
+      children: "structure",
+    },
+
+  ],
+
   "/dao/": [
 
-    "" /* /dao/ */,
- 
+    "" ,
+
     {
       icon: "discover",
       text: "碧苑坛经",
