@@ -1,10 +1,11 @@
 ---
 title: SpringBoot 入门指南
-icon: discover
+icon: markdown
 order: 1
 category:
-- 技术文章
-- java
+- java 
+tag:
+- springBoot
 ---
 
 # SpringBoot 入门指南

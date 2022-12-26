@@ -1,11 +1,13 @@
 ---
-title:用 Spring Boot 进行开发
-icon: discover
+title: 用 Spring Boot 进行开发
+icon: markdown
 order: 2
 category:
-- 技术文章
 - java
+tag:
+- springBoot
 ---
+
 # 用 Spring Boot 进行开发
 
 ## 1. 系统构建
