@@ -1,3 +1,13 @@
+---
+title: SpringBoot 入门指南
+index: false
+icon: discover
+order: 1
+category:
+- 技术文章
+- java
+---
+
 # SpringBoot 入门指南
 
 ## 1. 介绍一下 Spring Boot

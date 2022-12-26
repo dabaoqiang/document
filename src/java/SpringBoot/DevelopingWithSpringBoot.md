@@ -1,3 +1,12 @@
+---
+title:用 Spring Boot 进行开发
+index: false
+icon: discover
+order: 2
+category:
+- 技术文章
+- java
+---
 # 用 Spring Boot 进行开发
 
 ## 1. 系统构建
@@ -18,7 +27,7 @@ You can still specify a version and override Spring Boot’s recommendations if 
 
 该列表可以作为标准的材料清单(`spring-boot-dependencies`) ，可以与 Maven 和 Gradle 一起使用。
 
-::: warn
+::: tip warn
 
 SpringBoot 的每个版本都与 SpringFramework 的基本版本相关联。我们强烈建议您不要指定其版本。
 
