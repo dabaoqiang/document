@@ -1,6 +1,5 @@
 ---
 title: SpringBoot 入门指南
-index: false
 icon: discover
 order: 1
 category:

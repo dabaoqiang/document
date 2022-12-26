@@ -1,6 +1,5 @@
 ---
 title:用 Spring Boot 进行开发
-index: false
 icon: discover
 order: 2
 category:
