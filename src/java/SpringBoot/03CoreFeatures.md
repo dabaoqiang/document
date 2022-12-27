@@ -1,3 +1,12 @@
+---
+title: 核心功能-SpringApplication
+icon: markdown
+order: 3
+category:
+- java
+  tag:
+- springBoot
+---
 # 核心功能-SpringApplication
 
 `SpringApplication`类提供了一种方便的方式来引导从`main()`方法中启动的Spring应用程序。在许多情况下，你可以委托给静态的`SpringApplication.run`方法，如下面的例子中所示。
