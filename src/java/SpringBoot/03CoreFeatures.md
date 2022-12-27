@@ -4,7 +4,7 @@ icon: markdown
 order: 3
 category:
 - java
-  tag:
+tag:
 - springBoot
 ---
 # 核心功能-SpringApplication
@@ -98,15 +98,15 @@ spring:
     lazy-initialization: true
 ~~~
 
-::: tabs
+::: code-tabs
 
-@tab **Properties**
+@tab properties
 
 ~~~properties
 spring.main.lazy-initialization=true
 ~~~
 
-@tab **Yaml**
+@tab yaml  
 
 ~~~~yaml
 spring:
