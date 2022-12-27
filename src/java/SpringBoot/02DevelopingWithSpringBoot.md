@@ -14,13 +14,13 @@ tag:
 
 强烈建议您选择一个支持依赖项管理并且可以使用发布到“ Maven Central”存储库的构建系统。我们建议您选择Maven或Gradle。让 SpringBoot 与其他构建系统(例如 Ant)一起工作是可能的，但是它们并没有得到很好的支持。
 
-### 1.1. Dependency Management
+### 1.1. 依赖管理
 
 SpringBoot 的每个版本都提供了一个它所支持的依赖项的管理列表。实际上，您不需要为构建配置中的任何这些依赖项提供版本，因为 Spring Boot 会为您管理这些依赖项。当您升级 SpringBoot 本身时，这些依赖项也会以一致的方式进行升级。
 
 ::: info
 
-You can still specify a version and override Spring Boot’s recommendations if you need to do so.
+你仍然可以指定一个版本，并在需要时覆盖Spring Boot的建议。
 
 :::
 
@@ -387,31 +387,129 @@ public class MyApplication {
 
 :::
 
-## 7.运行你的应用
+## 7.运行您的应用程序
 
-### 7.1. Running From an IDE
+将你的应用程序打包成jar并使用嵌入式HTTP服务器的最大优势之一是，你可以像其他应用程序一样运行你的应用程序。该样本适用于调试Spring Boot应用程序。你不需要任何特殊的IDE插件或扩展。
 
-### 7.2. Running as a Packaged Application
+:::tip Note
 
-### 7.3. Using the Maven Plugin
+本节只涉及基于jar的打包。如果你选择将你的应用程序打包成war文件，请参阅你的服务器和IDE文档。
+
+::: 
+
+### 7.1.  从IDE中运行
+
+你可以从你的IDE中作为一个Java应用程序运行Spring Boot应用程序。不过，你首先需要导入你的项目。导入步骤因你的IDE和构建系统而异。大多数IDE可以直接导入Maven项目。例如，Eclipse用户可以从`File`菜单中选择`Import...`→`Existing Maven Projects`。
+
+如果你不能直接将项目导入IDE，你可以通过使用构建插件来生成IDE元数据。Maven包括Eclipse和IDEA的插件。Gradle为各种IDE提供插件。
+
+:::tip Tip
+
+如果你不小心运行了两次网络应用程序，你会看到一个 "端口已经在使用 "的错误。Spring Tools用户可以使用`Relaunch`按钮而不是`Run`按钮来确保任何现有的实例被关闭。
+
+:::
+
+### 7.2. 作为一个打包的应用程序运行
+
+如果你使用Spring Boot的Maven或Gradle插件来创建一个可执行的jar，你可以使用`java -jar`来运行你的应用程序，如下例所示。
+
+~~~shell
+$ java -jar target/myapplication-0.0.1-SNAPSHOT.jar
+~~~
+
+也可以在启用远程调试支持的情况下运行一个打包的应用程序。这样做可以让你把调试器附加到你的打包的应用程序上，如下面的例子中所示。
+
+~~~shell
+$ java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n \
+       -jar target/myapplication-0.0.1-SNAPSHOT.jar
+
+~~~
+
+### 7.3. 使用 Maven 插件
+
+Spring Boot Maven插件包括一个运行目标，可用于快速编译和运行您的应用程序。应用程序以爆炸的形式运行，就像在IDE中一样。下面的例子显示了运行Spring Boot应用程序的典型Maven命令。
+
+~~~shell
+$ mvn spring-boot:run
+~~~
+
+你可能还想使用`MAVEN_OPTS`操作系统环境变量，如下例所示。
+
+~~~shell
+$ export MAVEN_OPTS=-Xmx1024m
+~~~
 
 ### 7.4. Using the Gradle Plugin
 
+Spring Boot Gradle插件还包括一个`bootRun`任务，可以用来以爆炸的形式运行你的应用程序。只要你应用`org.springframework.boot`和`java`插件，`bootRun`任务就会被添加进来，如下例所示。
+
+~~~shell
+$ gradle bootRun
+~~~
+
+你也可以使用` JAVA _ OPTS `操作系统环境变量，如下例所示:
+
+~~~shell
+$ export JAVA_OPTS=-Xmx1024m
+~~~
+
 ### 7.5. Hot Swapping
+
+由于Spring Boot应用程序是普通的Java应用程序，JVM热交换应该可以开箱即用。JVM热交换所能替换的字节码有一定的限制。要想获得更完整的解决方案，可以使用JRebel。
+
+`Spring-boot-devtools `模块还支持快速重启应用程序。See the [Hot swapping “How-to”](https://docs.spring.io/spring-boot/docs/3.0.1/reference/htmlsingle/#howto.hotswapping) for details.
 
 ## 8.开发人员工具
 
-### 8.1. Diagnosing Classloading Issues
+Spring Boot包括一套额外的工具，可以使应用程序开发的体验更加愉快。
+`Spring-boot-devtools`模块可以包含在任何项目中，提供额外的开发时间功能。
+ 要包含devtools支持，请将模块依赖性添加到构建中，如下面Maven和Gradle的列表所示。
 
-### 8.2. Property Defaults
+*Maven*
 
-### 8.3. Automatic Restart
+~~~xml
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
+        <optional>true</optional>
+    </dependency>
+</dependencies>
+~~~
 
-### 8.4. LiveReload
+*Gradle*
 
-## 8.5. Global Settings
+~~~groovy
+dependencies {
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
+}
+~~~
 
-### 8.6. Remote Applications
+:::tip Caution
+
+Devtools可能会导致classloading问题，特别是在多模块项目中。` Diagnosing Classloading Issues `解释了如何诊断和解决这些问题。
+
+:::
+
+:::tip Note
+
+当运行一个完全打包的应用程序时，开发者工具会被自动禁用。.如果你的应用程序是从`java -jar`启动的，或者是从一个特殊的classloader启动的，那么它就被认为是一个 "生产应用程序"。你可以通过使用`spring.devtools.restart.enabled`系统属性来控制这种行为。要启用devtools，无论用于启动你的应用程序的类加载器是什么，设置`-Dspring.devtools.restart.enabled=true`系统属性。在生产环境中不能这样做，因为运行devtools会有安全风险。要禁用devtools，请排除该依赖关系或设置`-Dspring.devtools.restart.enabled=false`系统属性。
+
+:::
+
+:::tip Tip
+
+在Maven中把该依赖标记为可选，或在Gradle中使用`developmentOnly`配置（如上图所示），可以防止devtools被过渡应用到使用你的项目的其他模块。
+
+:::
+
+:::info
+
+这里只做简单说明，需要详细了解热更新的，可以参考这篇文章
+
+https://blog.csdn.net/qq_42217906/article/details/122541220
+
+:::
 
 ## 9.打包应用程序到生产环境
 
