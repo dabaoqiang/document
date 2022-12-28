@@ -24,6 +24,15 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
 
+    {
+      icon: "discover",
+      text: "Open Project",
+      prefix: "OpenProject/",
+      link: "OpenProject/",
+      collapsible: true,
+      children: "structure",
+    },
+
   ],
 
   "/dao/": [
