@@ -23,17 +23,17 @@ features:
   
 - title: 道家
   details: 圣人之道为而不争。 夫唯不争，故天下莫能与之争。
-  link: /principles/
+  link: /dao/
   icon: certificate
   
 - title: 释家
   details: 一切有为法，如梦幻泡影，如露亦如电，应作如是观。
-  link: /snippets/
+  link: /buddhism/
   icon: code
 
 - title: java
   details: 世间万物，皆为对象。
-  link: /snippets/
+  link: /java/
   icon: code
   
   footer: MIT licensed
