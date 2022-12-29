@@ -2,12 +2,14 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
 
+
+
   "/java/": [
 
     "",
 
     {
-      icon: "discover",
+      icon: "fa-solid fa-chart-simple",
       text: "SpringBoot",
       prefix: "SpringBoot/",
       link: "SpringBoot/",

@@ -28,19 +28,19 @@ export const zhNavbar = navbar([
   {
     text: "释家",
     link: "/buddhism/README.md",
-    icon: "creative",
+    icon: "heart",
   },
 
   {
     text: "道家",
     link: "/dao/README.md",
-    icon: "creative",
+    icon: "leaf",
   },
 
   {
     text: "java",
     link: "/java/README.md",
-    icon: "creative",
+    icon: "code",
   },
 
 

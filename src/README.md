@@ -24,12 +24,12 @@ features:
 - title: 道家
   details: 人法地，地法天，天法道，道法自然。
   link: /dao/
-  icon: certificate
+  icon: leaf
   
 - title: 释家
   details: 一切有为法，如梦幻泡影，如露亦如电，应作如是观。
   link: /buddhism/
-  icon: code
+  icon: heart
 
 - title: java
   details: 世间万物，皆为对象。
