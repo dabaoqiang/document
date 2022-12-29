@@ -22,7 +22,7 @@ export default hopeTheme({
 
   hotReload: true,
 
-  logo: "/logo.svg",
+  logo: "/coffee.svg",
 
   repo: "https://github.com/dabaoqiang/document.git",
 
@@ -31,7 +31,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   sidebarSorter: "filename",
-  
+
   locales: {
 
     /**
@@ -44,7 +44,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "Dabaoqiang",
+      footer: "MIT licensed",
 
       displayFooter: true,
 

@@ -1,98 +1,58 @@
 ---
+blog: false
 home: true
 icon: home
-title: 项目主页
-heroImage: /logo.svg
-heroText: 学习文档汇总
-tagline: 收集SpringBoot，SpringCloud，微服务，分布式，云原生，k8s相关资料
-actions:
-  - text: 使用指南 💡
-    link: /demo/
-    type: primary
+title: 资料收集
+heroImage: /coffee.svg
+heroText: 儒，道，释三家以及技术相关文章收集
+tagline: 日日行 不怕千万里 常常做 不怕千万事 --Dbq
+heroFullScreen: true
+action:
+ - text: 使用指南 💡 
+   link: /demo/ 
+   type: primary
 
-  - text: 文档
-    link: /guide/
-
+ - text: 文档
+   link: /guide/
+  
 features:
-  - title: Markdown 增强
-    icon: markdown
-    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
+- title: 儒家
+  details: 为天地立心 为生民立命 为往圣继绝学 为万世开太平
+  link: /patterns/
+  icon: home
+  
+- title: 道家
+  details: 圣人之道为而不争。 夫唯不争，故天下莫能与之争。
+  link: /principles/
+  icon: certificate
+  
+- title: 释家
+  details: 一切有为法，如梦幻泡影，如露亦如电，应作如是观。
+  link: /snippets/
+  icon: code
 
-  - title: 布局增强
-    icon: layout
-    details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/layout/
-
-  - title: 浏览量与评论
-    icon: comment
-    details: 配合 Waline 来开启阅读量统计与评论支持
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/comment.html
-
-  - title: 文章信息
-    icon: info
-    details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/page-info.html
-
-  - title: 博客支持
-    icon: blog
-    details: 使用一些很棒的布局提供博客功能，通过文章的日期、标签和分类，自动生成文章、分类、标签与时间轴列表
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/blog/intro.html
-
-  - title: 主题色切换
-    icon: palette
-    details: 支持自定义主题色并允许用户在预设的主题颜色之间切换
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/theme-color.html
-
-  - title: 深色模式
-    icon: contrast
-    details: 可以自由切换浅色模式与深色模式
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/darkmode.html
-
-  - title: 完整的无障碍支持
-    icon: support
-    details: 为你的网站带来完整的无障碍支持
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/accessibility.html
-
-  - title: 文章加密
-    icon: lock
-    details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/encrypt.html
-
-  - title: 复制按钮
-    icon: copy
-    details: 一键复制代码块中的代码
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/copy-code.html
-
-  - title: 图片预览
-    icon: pic
-    details: 像相册一样允许你浏览、缩放并分享你的页面图片
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/photo-swipe.html
-
-  - title: SEO 增强
-    icon: config
-    details: 将最终生成的网页针对搜索引擎进行优化。
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/advanced/seo.html
-
-  - title: Sitemap
-    icon: sitemap
-    details: 自动为你的网站生成 Sitemap
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/advanced/sitemap.html
-
-  - title: Feed 支持
-    icon: rss
-    details: 生成你的 Feed，并通知你的用户订阅它
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/advanced/feed.html
-
-  - title: PWA 支持
-    icon: mobile
-    details: 让你的网站更像一个 APP
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/advanced/pwa.html
-
-  - title: 更多新特性
-    icon: more
-    details: 包括图标支持、全屏按钮、返回顶部按钮等
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
-copyright: false
-footer: 使用 <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Dabaoqiang
+- title: java
+  details: 世间万物，皆为对象。
+  link: /snippets/
+  icon: code
+  
+  footer: MIT licensed
 ---
+
+# 介绍
+
+设计模式是程序员在设计应用程序或系统时可以用来解决常见问题的最佳形式化实践。
+设计模式可以通过提供经过测试的、经过验证的开发范例来加速开发过程。
+重用设计模式有助于防止导致重大问题的细微问题，并且还提高了熟悉这些模式的编码人员和架构师的代码可读性。
+
+# 开始
+
+该站点展示了基于 Java 的设计模式、原则和代码片段。 这些解决方案由来自开源社区的经验丰富的程序员和架构师开发。 这些模式可以通过它们的高级描述或通过查看它们的源代码来浏览。 源代码示例有很好的注释，可以被认为是关于如何实现特定模式的编程教程。 我们使用最流行的久经考验的开源 Java 技术。
+希望您发现本网站上提供的面向对象的解决方案对您的体系结构很有用，并且在学习它们时和我们开发它们时一样有趣。
+
+# 如何贡献
+
+该网站是开源社区工作的结果。 要对内容做出贡献，请按照下面的 Github 仓库链接进行操作。
+
+- [Website](https://github.com/iluwatar/java-design-patterns-vuepress-web)
+- [Design Patterns](https://github.com/iluwatar/java-design-patterns)
