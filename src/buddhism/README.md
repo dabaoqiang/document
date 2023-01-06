@@ -1,7 +1,7 @@
 ---
 title: 释家
 index: false
-icon: discover
+icon: heart
 category:
   - 经典文化
 ---

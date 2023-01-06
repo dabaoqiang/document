@@ -65,7 +65,7 @@ export const zhSidebar = sidebar({
 
     "" /* /buddhism/ */,
     {
-      icon: "discover",
+      icon: "heart",
       text: "憨山德清",
       prefix: "HanShanDeiQing/",
       link: "HanShanDeiQing/",
