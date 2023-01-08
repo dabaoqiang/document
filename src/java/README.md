@@ -1,10 +1,11 @@
 ---
 title: java
 index: false
-icon: discover
+icon: code
 category:
 - 技术文章
 - java
+- spring
 ---
 
 ## 目录
@@ -19,13 +20,17 @@ category:
 
 ## 收集简要
 
+### Spring Framework
+
 ### Spring Boot
 
 ### Spring Cloud
 
+### Open Project
+
 ### 副业
 
--[副业](https://howto-make-more-money-easychen.vercel.app)
++ [副业](https://howto-make-more-money-easychen.vercel.app)
 
 
 

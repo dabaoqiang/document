@@ -9,7 +9,16 @@ export const zhSidebar = sidebar({
     "",
 
     {
-      icon: "fa-solid fa-chart-simple",
+      icon: "heart",
+      text: "SpringFramework",
+      prefix: "SpringFramework/",
+      link: "SpringFramework/",
+      collapsible: true,
+      children: "structure",
+    },
+
+    {
+      icon: "code",
       text: "SpringBoot",
       prefix: "SpringBoot/",
       link: "SpringBoot/",
@@ -18,7 +27,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "discover",
+      icon: "code",
       text: "SpringCloud",
       prefix: "SpringCloud/",
       link: "SpringCloud/",
@@ -27,7 +36,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "discover",
+      icon: "code",
       text: "Open Project",
       prefix: "OpenProject/",
       link: "OpenProject/",
