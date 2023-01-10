@@ -5,7 +5,7 @@ category:
 - springFramework
 
 ---
-# IoC Container-01
+# IoC Container-01u
 
 >Version 5.3.24
 
@@ -39,20 +39,24 @@ category:
 
 在 Spring 中，构成应用程序主干并由 Spring IoC 容器管理的对象称为 bean。Bean 是一个由 Spring IoC 容器实例化、组装和管理的对象。否则，bean 只是应用程序中的许多对象之一。Bean 以及它们之间的依赖关系反映在容器使用的配置元数据中。
 
-### 1.2. 容器概述 TODO
+### 1.2. 容器概述
 
+`org.springframework.context.ApplicationContext` 接口代表 Spring IoC 容器，负责实例化、配置和组装 bean。容器通过读取配置元数据获取关于要实例化、配置和组装哪些对象的指令。配置元数据用 XML、 Java 注释或 Java 代码表示。它允许您表示组成应用程序的对象以及这些对象之间的丰富的相互依赖关系。
 
+Spring 提供了` ApplicationContext `接口的几个实现。在独立应用程序中，通常创建 `ClassPathXmlApplicationContext `或 `FileSystemXmlApplicationContext `的实例。XML 一直是定义配置元数据的传统格式，您可以指示容器使用 Java 注释或代码作为元数据格式，方法是提供少量 XML 配置，以声明方式启用对这些额外元数据格式的支持。
+
+在大多数应用程序方案中,实例化 Spring IoC 容器的一个或多个实例不需要显式的用户代码,例如，在 Web 应用程序场景中，应用程序的 Web.XML 文件中的简单的8行(大约)样板 Web 描述符 XML 通常就足够了(请参见 Web 应用程序的便捷应用上下文实例化)。
 
 
 
 ### 1.3. Bean Overview TODO
 
 ### 1.4. Dependencies TODO
- 
+
 ### 1.5. Bean Scopes TODO
 
 ### 1.6. Customizing the Nature of a Bean TODO
- 
+
 ### 1.7. Bean Definition Inheritance TODO
 
 ### 1.8. Container Extension Points TODO
