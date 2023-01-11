@@ -5,7 +5,7 @@ category:
 - springFramework
 
 ---
-# IoC Container-01u
+# IoC Container-01
 
 >Version 5.3.24
 
@@ -45,9 +45,21 @@ category:
 
 Spring 提供了` ApplicationContext `接口的几个实现。在独立应用程序中，通常创建 `ClassPathXmlApplicationContext `或 `FileSystemXmlApplicationContext `的实例。XML 一直是定义配置元数据的传统格式，您可以指示容器使用 Java 注释或代码作为元数据格式，方法是提供少量 XML 配置，以声明方式启用对这些额外元数据格式的支持。
 
-在大多数应用程序方案中,实例化 Spring IoC 容器的一个或多个实例不需要显式的用户代码,例如，在 Web 应用程序场景中，应用程序的 Web.XML 文件中的简单的8行(大约)样板 Web 描述符 XML 通常就足够了(请参见 Web 应用程序的便捷应用上下文实例化)。
+在大多数应用场景中，不需要显式的用户代码来实例化一个或多个 Spring IoC 容器实例。 例如，在 Web 应用程序场景中，应用程序的 web.xml 文件中简单的八行（或左右）样板 Web 描述符 XML 通常就足够了（请参阅 Web 应用程序的便捷 ApplicationContext 实例化[Convenient ApplicationContext Instantiation for Web Applications](https://docs.spring.io/spring-framework/docs/5.2.1.RELEASE/spring-framework-reference/core.html#context-create)）。 如果您使用 Spring Tool Suite（一个 Eclipse 驱动的开发环境），您可以通过几次鼠标点击或键盘敲击轻松地创建这个样板配置。
 
+下图显示了 Spring 工作原理的高级视图。 您的应用程序类与配置元数据相结合，以便在创建和初始化 `ApplicationContext` 之后，您拥有一个完全配置且可执行的系统或应用程序。
 
+https://docs.spring.io/spring-framework/docs/5.2.1.RELEASE/spring-framework-reference/images/container-magic.png
+
+#### 1.2.1. Configuration Metadata
+
+如上图所示，SpringIoC 容器使用一种形式的配置元数据。此配置元数据表示作为应用程序开发人员如何告诉 Spring 容器在应用程序中实例化、配置和组装对象。
+
+配置元数据传统上以简单直观的 XML 格式提供，本章的大部分内容都使用这种格式来传达 Spring IoC 容器的关键概念和功能。
+
+#### 1.2.2. Instantiating a Container
+
+#### 1.2.3. Using the Container
 
 ### 1.3. Bean Overview TODO
 
