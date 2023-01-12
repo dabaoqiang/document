@@ -1,10 +1,9 @@
 ---
-title: 开源项目
+title: 项目管理
 index: false
-icon: fa-solid fa-book-open
+icon: "fa-sharp fa-solid fa-list-check"
 category:
-- 收集资料
-- java
+- 项目管理
 ---
 
 ## 目录

@@ -1,6 +1,6 @@
 ---
 title: Scrum科普
-icon: markdown
+icon: fa-regular fa-page
 category:
 - 项目管理
 tag:
