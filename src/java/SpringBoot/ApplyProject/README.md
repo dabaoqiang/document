@@ -1,10 +1,10 @@
 ---
-title: SpringBoot
+title: SpringBoo应用集成
 index: false
 icon: fa-solid fa-bolt
 category:
 - 技术文章
-- java
+- SpringBoo应用集成
 ---
 
 ## 目录
@@ -19,27 +19,13 @@ Spring Boot 使您可以轻松地创建独立的、生产级的基于 Spring 的
 
 :::
 
-## Features 特征
+## 集成特征
 
-+ 创建独立的 Spring 应用程序
-+ 直接嵌入 Tomcat、 Jetty 或 Undertow (不需要部署 WAR 文件)
-+ 尽可能自动配置 Spring 和第三方库
-+ 绝对没有代码生成，也不需要 XML 配置
 
-## 分类
 
-### SpringBoot源码解读
-
-- [SpringBoot源码解读](SourceRead/README.md)
-- ...
-
-### 
-
-- [SpringBoot应用集成](ApplyProject/README.md)
-- ...
- 
  
 
+ 
 
 
 

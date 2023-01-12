@@ -1,10 +1,10 @@
 ---
-title: SpringBoot
+title: SpringBoot源码解析
 index: false
 icon: fa-solid fa-bolt
 category:
 - 技术文章
-- java
+- SpringBoot源码解析
 ---
 
 ## 目录
@@ -26,20 +26,9 @@ Spring Boot 使您可以轻松地创建独立的、生产级的基于 Spring 的
 + 尽可能自动配置 Spring 和第三方库
 + 绝对没有代码生成，也不需要 XML 配置
 
-## 分类
+## 收集简要
 
-### SpringBoot源码解读
-
-- [SpringBoot源码解读](SourceRead/README.md)
-- ...
-
-### 
-
-- [SpringBoot应用集成](ApplyProject/README.md)
-- ...
- 
- 
-
+### Spring Boot
 
 
 
