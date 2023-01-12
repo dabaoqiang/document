@@ -16,11 +16,11 @@ tag:
 
 ### Springfox
 
-是一个开源的API Doc的框架， 它的前身是swagger-springmvc，可以将我们的Controller中的方法以文档的形式展现。官方定义为： Automated JSON API documentation for API's built with Spring。
+> 是一个开源的API Doc的框架， 它的前身是swagger-springmvc，可以将我们的Controller中的方法以文档的形式展现。官方定义为： Automated JSON API documentation for API's built with Spring。
 
 ### Swagger
 
-Swagger 是围绕 OpenAPI 规范构建的一组开源工具，可以帮助您设计、构建、记录和使用 REST API。斯Swagger 格的主要工具包括:
+> Swagger 是围绕 OpenAPI 规范构建的一组开源工具，可以帮助您设计、构建、记录和使用 REST API。斯Swagger 格的主要工具包括:
 
 + 基于浏览器的编辑器，您可以在其中编写 OpenAPI 定义
 +  将 OpenAPI 定义作为交互式文档呈现
@@ -28,7 +28,7 @@ Swagger 是围绕 OpenAPI 规范构建的一组开源工具，可以帮助您设
 
 ### OpenAPI
 
-OpenAPI 规范(以前称为 Swagger 规范)是针对 REST API 的 API 描述格式。OpenAPI 文件允许你描述你的整个 API，包括:
+> OpenAPI 规范(以前称为 Swagger 规范)是针对 REST API 的 API 描述格式。OpenAPI 文件允许你描述你的整个 API，包括:
 
 + 可用端点(`/users`)和每个端点上的操作((`GET /users`, `POST /users`)
 + 操作参数每个操作的输入和输出
