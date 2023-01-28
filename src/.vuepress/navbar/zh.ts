@@ -25,6 +25,14 @@ export const zhNavbar = navbar([
   //   ],
   // },
 
+
+  {
+    text: "儒家",
+    link: "/confucian/README.md",
+    icon: "fa-solid fa-diagram-cells",
+  },
+
+
   {
     text: "释家",
     link: "/buddhism/README.md",

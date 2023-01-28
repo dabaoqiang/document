@@ -18,8 +18,8 @@ action:
 features:
 - title: 儒家
   details: 为天地立心 为生民立命 为往圣继绝学 为万世开太平
-  link: /patterns/
-  icon: home
+  link: /confucian/
+  icon: fa-solid fa-diagram-cells
   
 - title: 道家
   details: 人法地，地法天，天法道，道法自然。

@@ -55,6 +55,19 @@ export const zhSidebar = sidebar({
 
   ],
 
+  "/confucian/": [
+    "" ,
+    {
+      icon: "fa-solid fa-books",
+      text: "儒家解读汇总",
+      prefix: "InterpretationSummary/",
+      link: "InterpretationSummary/",
+      collapsible: true,
+      children: "structure",
+    },
+  ],
+
+
   "/dao/": [
 
     "" ,
