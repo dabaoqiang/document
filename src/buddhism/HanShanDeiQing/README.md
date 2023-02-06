@@ -28,6 +28,6 @@ category:
 
 - [答郑昆岩中丞](src/buddhism/HanShanDeiQing/22年12月份/20221208.md)
 
-- [示容玉居士(甲辰)](20230105-示容玉居士(甲辰).md)
+- [示容玉居士(甲辰)](src/buddhism/HanShanDeiQing/23年1月份/20230105-示容玉居士(甲辰).md)
 
  
