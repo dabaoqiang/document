@@ -65,6 +65,15 @@ export const zhSidebar = sidebar({
       collapsible: true,
       children: "structure",
     },
+
+    {
+      icon: "fa-solid fa-books",
+      text: "礼记",
+      prefix: "BookOfRites/",
+      link: "BookOfRites/",
+      collapsible: true,
+      children: "structure",
+    },
   ],
 
 
