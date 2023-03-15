@@ -99,6 +99,15 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
 
+    {
+      icon: "discover",
+      text: "其他",
+      prefix: "other/",
+      link: "other/",
+      collapsible: true,
+      children: "structure",
+    },
+
   ],
 
   "/buddhism/": [
