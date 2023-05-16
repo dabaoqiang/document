@@ -18,7 +18,7 @@ export default hopeTheme({
     orange: "#fb9b5f",
   },
 
-  iconAssets: "fontawesome",
+  iconAssets: "iconfont",
 
   hotReload: true,
 
