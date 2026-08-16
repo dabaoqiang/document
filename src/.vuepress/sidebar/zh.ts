@@ -101,6 +101,15 @@ export const zhSidebar = sidebar({
 
     {
       icon: "discover",
+      text: "昆仑语录讲课笔记",
+      prefix: "昆仑语录讲课笔记/",
+      link: "昆仑语录讲课笔记/",
+      collapsible: true,
+      children: "structure",
+    },
+
+    {
+      icon: "discover",
       text: "其他",
       prefix: "other/",
       link: "other/",

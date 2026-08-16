@@ -59,6 +59,7 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["1234"],
       "/zh/demo/encrypt.html": ["1234"],
+      "/dao/昆仑语录讲课笔记/": ["20230222"],
     },
   },
 
