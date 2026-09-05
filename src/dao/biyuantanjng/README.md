@@ -1,7 +1,7 @@
 ---
 title: 碧苑坛经
 index: false
-icon: discover
+icon: fa-solid fa-compass
 category:
   - 使用指南
 ---
@@ -23,3 +23,7 @@ category:
 - [碧苑坛经 04](碧苑坛经04.md)
 
 - [碧苑坛经问答篇](碧苑坛经05.md)
+
+- [聊天品 01](聊天品/聊天品01.md)
+
+- [聊天品 02](聊天品/聊天品02.md)

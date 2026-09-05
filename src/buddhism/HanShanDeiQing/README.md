@@ -1,7 +1,7 @@
 ---
 title: 憨山德清
 index: false
-icon: heart
+icon: fa-solid fa-heart
 category:
   - 经典文化
 ---

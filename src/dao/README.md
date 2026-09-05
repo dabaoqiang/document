@@ -1,7 +1,7 @@
 ---
 title: 道家
 index: false
-icon: discover
+icon: fa-solid fa-compass
 category:
   - 使用指南
 ---

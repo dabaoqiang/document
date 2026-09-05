@@ -1,7 +1,7 @@
 ---
 title: 昆仑师门语录
 index: false
-icon: discover
+icon: fa-solid fa-compass
 category:
   - 修行心得
 ---

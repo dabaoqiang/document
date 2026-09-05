@@ -1,6 +1,6 @@
 ---
 title: Spring Framework 概述
-icon: heart
+icon: fa-solid fa-heart
 category:
 - springFramework
 

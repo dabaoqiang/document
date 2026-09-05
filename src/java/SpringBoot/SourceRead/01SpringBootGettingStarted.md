@@ -1,6 +1,6 @@
 ---
 title: SpringBoot 入门指南
-icon: markdown
+icon: fa-brands fa-markdown
 order: 1
 category:
 - java 

@@ -14,4 +14,4 @@ category:
 
 :::
 
-- [人生事业](InterpretationSummary/20230128-人生事业.md)
+- [人生事业](20230128-人生事业.md)

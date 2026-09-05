@@ -1,7 +1,7 @@
 ---
 title: java
 index: false
-icon: code
+icon: fa-solid fa-code
 category:
 - 技术文章
 - java

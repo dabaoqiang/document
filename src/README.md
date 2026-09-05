@@ -1,20 +1,13 @@
 ---
 blog: false
 home: true
-icon: home
+icon: fa-solid fa-house
 title: 资料收集
 heroImage: /coffee.svg
 heroText: 儒，道，释三家以及技术相关文章收集
 tagline: 日日行 不怕千万里 常常做 不怕千万事 --Dbq
 heroFullScreen: true
-action:
- - text: 使用指南 💡 
-   link: /demo/ 
-   type: primary
 
- - text: 文档
-   link: /guide/
-  
 features:
 - title: 儒家
   details: 为天地立心 为生民立命 为往圣继绝学 为万世开太平
@@ -24,18 +17,15 @@ features:
 - title: 道家
   details: 人法地，地法天，天法道，道法自然。
   link: /dao/
-  icon: leaf
-  
+  icon: fa-solid fa-leaf
 - title: 释家
   details: 一切有为法，如梦幻泡影，如露亦如电，应作如是观。
   link: /buddhism/
-  icon: heart
-
+  icon: fa-solid fa-heart
 - title: java
   details: 世间万物，皆为对象。
   link: /java/
-  icon: code
-  
+  icon: fa-solid fa-code
   footer: MIT licensed
 ---
 

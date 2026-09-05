@@ -1,7 +1,7 @@
 ---
 title: 昆仑语录讲课笔记
 index: false
-icon: discover
+icon: fa-solid fa-compass
 category:
   - 使用指南
 ---

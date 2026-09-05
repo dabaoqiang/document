@@ -1,6 +1,6 @@
 ---
 title: IoC Container
-icon: heart
+icon: fa-solid fa-heart
 category:
 - springFramework
 

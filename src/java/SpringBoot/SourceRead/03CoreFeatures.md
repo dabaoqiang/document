@@ -1,6 +1,6 @@
 ---
 title: 核心功能-SpringApplication
-icon: markdown
+icon: fa-brands fa-markdown
 order: 3
 category:
 - java

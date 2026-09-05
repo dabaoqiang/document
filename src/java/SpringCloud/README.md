@@ -1,7 +1,7 @@
 ---
 title: SpringCloud
 index: false
-icon: discover
+icon: fa-solid fa-compass
 category:
 - 技术文章
 - java

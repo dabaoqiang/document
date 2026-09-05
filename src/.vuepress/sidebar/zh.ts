@@ -82,7 +82,7 @@ export const zhSidebar = sidebar({
     "" ,
 
     {
-      icon: "discover",
+      icon: "fa-solid fa-compass",
       text: "碧苑坛经",
       prefix: "biyuantanjng/",
       link: "biyuantanjng/",
@@ -91,7 +91,16 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "discover",
+      icon: "fa-solid fa-book-open",
+      text: "灵宝毕法",
+      prefix: "lingbaobifa/",
+      link: "lingbaobifa/",
+      collapsible: true,
+      children: "structure",
+    },
+
+    {
+      icon: "fa-solid fa-compass",
       text: "昆仑语录",
       prefix: "kunlunjf/",
       link: "kunlunjf/",
@@ -100,7 +109,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "discover",
+      icon: "fa-solid fa-compass",
       text: "昆仑语录讲课笔记",
       prefix: "昆仑语录讲课笔记/",
       link: "昆仑语录讲课笔记/",
@@ -109,7 +118,7 @@ export const zhSidebar = sidebar({
     },
 
     {
-      icon: "discover",
+      icon: "fa-solid fa-compass",
       text: "其他",
       prefix: "other/",
       link: "other/",
@@ -123,7 +132,7 @@ export const zhSidebar = sidebar({
 
     "" /* /buddhism/ */,
     {
-      icon: "heart",
+      icon: "fa-solid fa-heart",
       text: "憨山德清",
       prefix: "HanShanDeiQing/",
       link: "HanShanDeiQing/",

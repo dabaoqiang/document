@@ -1,7 +1,7 @@
 ---
 title: 其他
 index: false
-icon: discover
+icon: fa-solid fa-compass
 category:
   - 修行心得
 ---

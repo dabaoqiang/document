@@ -1,6 +1,6 @@
 ---
 title: 用 Spring Boot 进行开发
-icon: markdown
+icon: fa-brands fa-markdown
 order: 2
 category:
 - java

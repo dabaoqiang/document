@@ -1,6 +1,6 @@
 ---
 title: Spring框架
-icon: heart
+icon: fa-solid fa-heart
 category:
 - springFramework
 

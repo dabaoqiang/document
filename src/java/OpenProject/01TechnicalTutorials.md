@@ -1,6 +1,6 @@
 ---
 title: Java 优质开源技术教程
-icon: markdown
+icon: fa-brands fa-markdown
 order: 1
 category:
 - java
